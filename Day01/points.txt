@@ -1,0 +1,330 @@
+Python
+------
+python = www.python.org		-	open source
+
+
+pycharm	CE - https://www.jetbrains.com/pycharm/download/#section=windows
+
+
+different flavours 
+------------------
+1. CPython			-	Currently using
+
+2. Jython			-	python code to java code
+
+3. Iron Python	-	Make use of Dotnet libraries
+
+
+
+Python versions
+---------------
+2.x and 3.x
+-----------
+
+1. syntax	=> 2.x => print "hello"	
+					3.x => print("hello")
+
+
+2. lot of functions are deprecated
+
+
+3.9.7, 	3.11.x
+
+
+Python 3.x
+-----------
+
+1. sdk		- libraries necessary to execute python files
+
+2. shell	-	python shell	- interactive environment
+
+3. IDLE		-	Interactive development environment
+
+
+python scripting language - python, perl, ruby
+----------------------------------------------
+
+1. interpreted	- 
+
+2. weakly coupled data 
+
+		a. variable will not have data types
+
+			implicit decleration
+			---------------------
+
+			x = 10				-	x is an integer		- runtime (dynamic)
+			
+			x = "hello"		-	x is a string
+
+			x = True			-	x is boolean
+
+			
+
+
+
+programming language - c, c++, dotnet
+-------------------------------------
+
+1.compiled
+
+2.strongly coupled data
+
+	explicit decleration
+	--------------------
+
+	int i;		- compilation time (static)
+	
+		
+there are two operators that are overloaded
+--------------------------------------------
++ 	=> can use it for addition and concatenation
+
+*	=> can use it for multiplication and to print a string n number of 			times
+
+
+data type - Number (python 2.x)
+
+							a. integer
+							b. long			-	2374230934127389172L
+							c. float
+							d. complex
+
+
+3.x	-	long datatype is deprecated - but the property still exists
+
+
+------------------------------------------------------------
+
+from imp import reload		
+
+
+module 		- imp
+
+function 	- reload
+
+
+-----------------------------------------------------------------
+
+python coding rules
+-------------------
+
+1. #!- shebang	- used to mention the path of python executable
+
+
+2. comments
+
+# is used for commenting a line (Single line)
+
+
+strings in python
+-----------------
+are enclosed in 
+
+
+single line strings
+-------------------
+
+"this is a string"
+
+or
+
+'this is a string'
+
+
+multiple line string are enclosed in 
+------------------------------------
+"""
+	this is the first line
+	this is the second line
+	this is the third line
+"""
+or
+
+'''
+	this is the first line
+	this is the second line
+	this is the third line
+
+'''
+
+
+"this is a string"
+
+string are also used as docstring
+
+docstrings are strings that is written on top a function
+
+
+def fun():
+
+	"""
+		function fun will take two arguments
+
+		fun will return the sum of these two arguments
+	"""
+	print("hello world")
+
+
+3. Indentation (tab space)
+
+python we dont use  {  } in functions, loops and if conditions
+
+
+def fun():
+	
+	print("hello world")
+	print("funtion fun code")
+
+	for i in range(1, 15):
+
+		print("for loop code")
+		
+		if i % 2 == 0:
+
+			print("if condition code")
+			print(i)
+
+
+print("__main__ code")			# double under score	- dunder main	
+
+
+
+primary data type 
+-----------------
+1. Numbers
+		a. integers
+		b. float
+		c. complex
+
+2. strings
+
+3. Boolean
+
+
+Operators
+---------
+arithmetic
+augmentor
+logical
+boolean
+bitwise
+ternary
+
+
+bitwise
+-------
+
+or
+---
+
+5 - 101
+3 - 011
+	 ----
+	 111		=> 4 + 2 + 1	=> 7
+
+
+and
+---
+5 - 101
+3 - 011
+    ---
+	 001			-> 1
+
+xor
+---
+5 - 101
+3 - 011
+	 ----
+	 110			-> 6
+
+
+<<
+---
+
+5 - 101 -> 1010		=>	8+2 = 10
+
+
+8 - 1000 -> 10000	=>	16	
+
+
+5 - 101 -> 10100	=> 16 + 4 = 20
+
+5 - 101 -> 10			=> 2
+
+16 - 10000 -> 1000 -> 8
+
+
+
+if conditions and loops
+------------------------
+
+if condition
+
+
+for loop
+
+while loop
+
+
+print
+-----
+print(data, sep="", end="\n")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
