@@ -63,7 +63,6 @@ what is the next number which satisfies this condition
 Generate 5 such numbers
 
 
-
 6. write a code to generate identity matrix
 
 7. generate armstrong numbers between 1 and 500

@@ -1,0 +1,173 @@
+3  - 1
+
+
+1st daughter
+
+3 parts		-	1 mango extra - son
+
+1 part is taken
+
+
+---------------------------
+
+2nd daughter
+
+3 parts - 1 mango extra	- son
+
+1 part is taken
+
+----------------------------
+
+3rd daughter
+
+3 parts -	1 mango extra	- son
+
+1 part is taken
+
+
+-----------------------------
+
+farmer
+
+3 parts - gives it to his daughters
+
+
+5 such numbers
+
+-----------------------------------------------------------
+
+Data types
+
+1. Numbers 
+
+2. Boolean
+
+3. String
+
+
+Strings
+-------
+single line strings are enclosed in 
+
+"this is a string"
+
+or
+
+'this is a string'
+
+
+multiple line strings are enclosed in 
+
+"""
+this is the first line
+this is the second line
+this is the third line
+"""
+
+or
+
+'''
+this is the first line
+this is the second line
+this is the third line
+'''
+
+STRINGS ARE IMMUTABLE - string class will not have a setter method
+
+
+
+--------------------------------------------------
+
+class Player:
+
+	def __init__(self, name):
+		self.name = name
+
+
+	# getter method
+	def get_details(self):
+		print(f"The name of the player is :{self.name}")
+	
+
+	# setter method	
+	def change_name(self, nm):
+		self.name = nm
+
+
+ply1 = Player("sachin")
+
+ply1.get_details()
+
+ply1.change_name("Sachin Tendulkar")
+
+
+----------------------------------------------------
+
+Data Structures
+---------------
+1. lists
+2. dictionary
+3. tuple
+4. set
+
+
+
+Lists
+-----
+Lists are similar to arrays 
+
+
+what are arrays?
+
+1. collection of homogenous data
+
+2. Memory allocation is contigious
+
+
+
+List
+-----
+1. lists are collection of hetrogenous data
+
+2. memory allocation is not contigious
+
+3. its an ordered collection
+
+4. it is mutable
+
+5. it is subscriptable
+
+6. it is enclosed in [ ]
+
+
+to manipulate a list
+---------------------
+
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
