@@ -1,0 +1,75 @@
+Copy and sort
+------------
+
+tuple
+------
+tuple is a immutable list
+
+tuples are enclosed in ()
+
+
+
+set
+---
+1. set is a collection of unique values
+
+2. set is not subscriptable
+
+3. set is unordered collection
+
+4. set is mutable
+
+5. set is enclosed in {}
+
+
+Dictionary
+----------
+dictionary is also known as associative array
+
+
+array 
+-----
+index	 0     1    2    3    4    5 
+arr = ['a', 'b', 'c', 'd', 'e', 'f']
+
+
+associative array
+-----------------
+dict1 = {0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e', 5: 'f'}
+
+keys = 0, 1, 2, 3, 4, 5  (keys are user defined)
+values = a, b, c, d, e
+
+
+1. keys are always unique
+
+2. unordered collecition
+
+3. mutable
+
+4. enclosed in {k1 :v1, k2: v2, k3 : v3......}
+
+
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+
+Wildcards
+---------
+* - series of characters
+? - single character
+
+
+Command Line Arguments
+----------------------
+sys module
+
+from sys import argv
+
+
+
+
+
+
+
+
+
